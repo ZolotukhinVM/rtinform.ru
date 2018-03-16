@@ -92,9 +92,6 @@
 </body>
 </html>
 
-<!-- <link rel="stylesheet" href="/local/templates/rtinform/js/fancybox/jquery.fancybox.css" type="text/css"> -->
-<!-- <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/js/sweetalert2/sweetalert2.min.css" type="text/css"> -->
-
 <link rel="icon" type="image/png" href="/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/assets/css/slick.css">
@@ -103,7 +100,7 @@
 <script src="<?=SITE_TEMPLATE_PATH?>/assets/js/bootstrap.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/assets/js/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
-<!-- <script src="https://uguide.ru/js/script/ok4.js" type="text/javascript"></script> -->
+
 <script>
 	function CopyToClipboard(containerid) {
 		if (window.getSelection) {
