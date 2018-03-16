@@ -1,0 +1,8 @@
+div.wk_after_head_bg {
+    background-color: #888;
+    background-image: url("img/img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 100%;
+}

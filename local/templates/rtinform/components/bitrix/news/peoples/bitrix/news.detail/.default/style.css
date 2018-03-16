@@ -1,0 +1,43 @@
+.management-detail-page{
+    width: 840px;
+    margin: 0 auto;
+}
+.management-title{}
+.management-separate{
+    border-top:1px solid #828282;
+    border-bottom:1px solid #c1c1c1;
+    height: 0;
+    margin: 20px 0 10px;
+}
+h1{
+    float: right;
+    box-sizing: border-box;
+    padding-left: 350px;
+    text-align: left;
+    width: 100%;
+    color: #444 !important;
+}
+.page-title-line{
+    float: right;
+    width: 60%;
+}
+.management-post{
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 350px;
+    margin: 0;
+    color: #444;
+}
+.management-detail-picture img{
+    border:1px solid #f5f5f5;
+    margin: -90px 35px 20px 0;
+    text-align: left;
+    float: left;
+}
+.management-detail-picture{
+    margin-bottom: 15px;
+}
+.text_block{
+    clear: both;
+}

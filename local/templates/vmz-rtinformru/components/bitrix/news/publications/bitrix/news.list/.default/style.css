@@ -1,0 +1,15 @@
+.pub-item{
+    margin-bottom: 25px;
+}
+.pub-item .pub-info{
+    color: #008ce9;
+}
+.pub-item a{
+    font-size: 18px;
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+    text-decoration: none;
+}
+.pub-item a:hover{
+    text-decoration: underline;
+}

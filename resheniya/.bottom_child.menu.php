@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"ИАС", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-ДЕСК", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-ЗАКУПКИ", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-БЮДЖЕТ", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ЕКК", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ИБАК", 
+		"/resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,10 @@
+header {background-repeat: no-repeat !important;-webkit-background-size: cover !important;-moz-background-size: cover !important;-o-background-size: cover !important;background-size: cover !important;}
+
+header.bg-index{background-position: 50% 50%;}
+header.bg-noindex{	background-position: 50% 0%;} 
+
+header > div.noindex section#about-company, header > div.noindex .slogan {display: none;}
+
+header #rtsearch {position: absolute;top: 25px;right: 25px;}
+header #rtsearch a {font-size: 1.5em;border: 0;text-decoration: none;color: #333;}
+header #rtsearch a:hover {color: #999;-webkit-transition:1s;-moz-transition:1s;-o-transition:1s;transition:1s;}

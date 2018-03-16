@@ -1,0 +1,27 @@
+aside.main.wk_padding ul.left-menu {padding-top: 35px;}
+ul.left-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 230px;
+}
+ul.left-menu li {}
+ul.left-menu li a {
+	background: url("images/arrow.png") no-repeat scroll -20px center rgba(0, 0, 0, 0);
+    color: #000;
+    display: block;
+    font-family: "PT Sans Narrow",sans-serif;
+    font-size: 18px;
+    padding: 7px 5px 3px 18px;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+ul.left-menu li a.selected {color:#36b4f4;}
+ul.left-menu li a:hover {
+	background-position: 0 center;
+	color:#36b4f4;
+    background-position: 3px 12px;
+}
+
+

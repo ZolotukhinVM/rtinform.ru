@@ -1,0 +1,17 @@
+.wk_pagenavigation {
+    clear: both;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+.wk_pagenavigation a {
+    color: #000;
+    margin: 0 3px;
+    text-decoration: none;
+}
+.wk_pagenavigation a:hover {text-decoration: underline;}
+.wk_pagenavigation span {
+    color: #4bbff4;
+    margin: 0 3px;
+}

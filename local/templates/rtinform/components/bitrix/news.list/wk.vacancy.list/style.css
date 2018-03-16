@@ -1,0 +1,153 @@
+.vacancy_list {}
+.vacancy_list div.part {
+    margin-bottom:20px;
+}
+.vacancy_list header {
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);*/
+    border: thin solid #444;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+	transition: all 0.4s ease 0s;
+}
+.vacancy_list header:hover {box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);}
+.vacancy_list header span {
+    background-image: url("img/plus.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+    display: inline-block;
+    font-size: 16px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 40px;
+}
+.vacancy_list header.active span {background-position: 0 -29px;}
+.vacancy_list section {
+    display: none;
+    margin: 20px 0;
+    padding: 0 10px 0 50px;
+}
+#uploadFile {
+    box-sizing: border-box;
+    height: 34px;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+}
+div.fileUpload {
+    -moz-border-radius: 2px;
+    -moz-border: 2px;
+    -o-border-radius: 2px;
+    -o-border: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-border: 2px;
+    background: #4bbff4;
+    border-radius: 2px;
+    border: 2px;
+    margin: -2px 0 0 5px;
+    margin: -2px 0 0 5px;
+    overflow: hidden;
+    position: relative;
+}
+div.fileUpload:hover {
+    margin: -2px 0 0 5px;
+    overflow: hidden;
+    position: relative;
+    margin: -2px 0 0 5px;
+    -moz-border: 2px;
+    -o-border: 2px;
+    -webkit-border: 2px;
+    background: #4bbff4;
+    border: 2px;
+}
+.fileUpload input.upload {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    font-size: 20px;
+    margin-top:3px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.vacancy_list input.submit{
+    -moz-border-radius: 2px;
+    -moz-border: 2px;
+    -o-border-radius: 2px;
+    -o-border: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-border: 2px;
+    background: #4bbff4;
+    border-radius: 2px;
+    border: 2px;
+    margin: -2px 0 0 5px;
+}
+.btn-primary {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-color: #428bca;
+    background-image: none;
+    border-color: #357ebd;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    heigth: 32px;
+    line-height: 1.42857143;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    /*width: 127px;*/
+    font-family: Tahoma;
+}
+.inform_btn span {
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+}
+.vacancy_list form img{
+    display: none;
+    margin-left: -6px;
+    width: 212px;
+    margin-top: 10px;
+}
+
+.vacancy_list form .captcha-block input{
+    box-sizing: border-box;
+    height: 34px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    float:none;
+}
+.vacancy_list form .captcha-block img{
+    display:block;
+    width:180px;
+    float:none;
+    margin:3px 0 0 0;
+}

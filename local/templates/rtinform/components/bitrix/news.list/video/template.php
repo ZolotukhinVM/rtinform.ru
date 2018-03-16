@@ -1,0 +1,30 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+$this->setFrameMode(true);?>
+<div class="video-list">
+	<?foreach($arResult["ITEMS"] as $arKey => $arItem):?>
+        <?
+            if(!$arItem['ACTIVE_FROM'] && $arItem['PROPERTIES']['DATE']['VALUE'])
+                $arItem['ACTIVE_FROM'] = FormatDate("d.m.Y", MakeTimeStamp($arItem['PROPERTIES']['DATE']['VALUE']));
+            if($arItem['PROPERTIES']['YOUTUBE']['VALUE']){
+                $arItem['VIDEO'] = preg_replace('#^.*?\?v=#','',$arItem['PROPERTIES']['YOUTUBE']['VALUE']);
+            }
+        ?>
+		<div class="video-list__item<?=(($arKey+1) % 3==0)?' no-mr':''?>">
+            <a rel="nofollow" href="https://www.youtube.com/embed/<?=$arItem['VIDEO']?>?autoplay=1&rel=0&controls=0&showinfo=0" class="zoomIt img fancybox.iframe">
+				<span>
+					<i><?=$arItem['ACTIVE_FROM']?></i>
+                    <?if($arItem['PREVIEW_PICTURE']['SRC']):?>
+					<img src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arItem['PREVIEW_PICTURE']['ALT']?>" title="<?=$arItem['PREVIEW_PICTURE']['TITLE']?>" />
+                    <?endif;?>
+				</span>
+			</a>
+			<p>
+                <a href="https://www.youtube.com/embed/<?=$arItem['VIDEO']?>?autoplay=1&rel=0&controls=0&showinfo=0" class="zoomIt fancybox.iframe title"><?=$arItem['NAME']?></a>
+			</p>
+		</div>
+	<?endforeach;?>
+</div>
+<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
+    <br /><?=$arResult["NAV_STRING"]?>
+<?endif;?>

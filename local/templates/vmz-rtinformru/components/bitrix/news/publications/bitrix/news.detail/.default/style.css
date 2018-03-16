@@ -1,0 +1,18 @@
+.pub-detail-page{
+    width: 840px;
+    margin: 0 auto;
+}
+.pub-separate{
+    border-top:1px solid #828282;
+    border-bottom:1px solid #c1c1c1;
+    height: 0;
+    margin: 20px 0;
+}
+.pub-info{
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.pub-detail-picture{
+    margin-bottom: 15px;
+}

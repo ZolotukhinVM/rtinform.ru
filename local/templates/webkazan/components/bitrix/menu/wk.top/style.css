@@ -1,0 +1,107 @@
+.wk_top_menu {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.wk_top_menu{
+	box-sizing:border-box;
+}
+.wk_top_menu a{
+    font-family:'PT Sans Narrow',sans-serif;
+}
+.wk_top_menu li {list-style: none outside none;}
+.wk_top_menu > li > a {
+    color: #444;
+    display: block;
+    font-size: 18px;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.wk_top_menu > li {
+    display: block;
+    float: left;
+    margin: 0 22px;
+}
+.wk_top_menu > li:first-child{
+    margin-left: 0;
+}
+.wk_top_menu > li > ul {display: none;}
+.wk_top_menu > li.parent > a{
+    background-image: url(img/down-arrows.png);
+    background-position: right -15px;
+    background-repeat: no-repeat;
+    padding-right: 17px;
+}
+.wk_top_menu > li:hover > a,
+.wk_top_menu > li > a.root-item-selected {
+    color: #4bbff4;
+    background-position: right 30px;
+}
+.wk_top_menu > li:hover > a > i,
+.wk_top_menu > li > a.root-item-selected > i {background-position: left center;}
+.wk_top_menu > li:hover > ul {display: block;}
+.wk_top_menu > li > ul {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    left: 0;
+    padding: 8px 0 15px;
+    position: absolute;
+    width: 100%;
+}
+.wk_top_menu > li > ul > li {
+    display: block;
+    width: 300px;
+    padding: 0 22px;
+    position: relative;
+}
+.wk_top_menu > li > ul.wk_border > li {border-right: 1px solid rgba(181, 181, 181, 0.8);}
+.wk_top_menu > li > ul > li > a {
+	color: #444;
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.wk_top_menu > li > ul > li:hover > a,
+.wk_top_menu > li > ul > li.item-selected > a{
+    color: #4bbff4;
+}
+.wk_top_menu > li > ul > li.parent > a > i {
+	background: url(img/str.right.grey.png) no-repeat 0 0;
+	display: inline-block;
+	height: 19px;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 10px;
+}
+.wk_top_menu > li > ul > li:hover > a > i {
+    background: url(img/str.right.png) no-repeat 0 0;
+}
+.wk_top_menu ul ul {
+    display: none;
+    float: right;
+    padding: 0;
+    position: absolute;
+    border-left:1px solid #444;
+    left: 100%;
+    top: 0;
+    white-space: nowrap;
+}
+.wk_top_menu ul ul li{
+    padding: 0 20px;
+}
+.wk_top_menu > li > ul > li:hover > ul {display: block;}
+.wk_top_menu ul ul a {
+    color: #444;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.wk_top_menu ul ul li:hover a{
+    color: #4bbff4;
+}

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Записаться";
+$arDirProperties = Array(
+
+);
+?>

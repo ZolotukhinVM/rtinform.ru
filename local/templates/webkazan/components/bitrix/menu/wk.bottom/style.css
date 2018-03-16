@@ -1,0 +1,12 @@
+ul.wk_bottom_nav {
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+ul.wk_bottom_nav li{
+    min-width: 144px;
+    padding: 3px 0;
+}
+ul.wk_bottom_nav a {font-size: 18px;
+font-family: 'PT Sans Narrow', sans-serif;}
+

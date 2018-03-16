@@ -1,0 +1,48 @@
+<?
+/*
+$aMenuLinks = Array(
+	Array(
+		"ИАС", 
+		"/resheniya/#ias", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-ДЕСК", 
+		"/resheniya/#rt-desk", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-ЗАКУПКИ", 
+		"/resheniya/#rt-zakupki", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"РТ-БЮДЖЕТ", 
+		"/resheniya/#rt-budget", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ЕКК", 
+		"/resheniya/#ekk", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ИБАК", 
+		"/resheniya/#ibak", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+);
+*/
+?>

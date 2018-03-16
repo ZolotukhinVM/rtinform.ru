@@ -1,0 +1,19 @@
+.search-form{
+    margin-top: 34px;
+}
+.search-form input[type='text']{
+    background: url(img/search-magnifier.png) no-repeat scroll 98% 50% rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color:#444;
+    border-width: 0 0 0 2px;
+    height: 28px;
+    padding: 0 25px 0 5px;
+    width: 176px;
+    outline: none;
+    font-size: 18px;
+    font-style: italic;
+}
+.search-form input[type='text']:focus{
+    border-width: 0 0 2px 2px;
+}
+.search-form input[type='submit']{display:none}

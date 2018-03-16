@@ -1,0 +1,89 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Руководство", 
+		"/about/management/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Проекты",
+		"/about/projects/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Лицензии", 
+		"/about/litsenzii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	
+	Array(
+		"КИГР", 
+		"/about/kigr/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"КИБР", 
+		"/about/kibr/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	
+	/*
+	Array(
+		"Партнеры", 
+		"/about/partnery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Проектный офис", 
+		"/about/proektnyy-ofis/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Центр сопровождения", 
+		"/about/tsentr-soprovozhdeniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Центр по информационной безопасности", 
+		"/about/tsentr-po-informatsionnoy-bezopasnosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),*/
+	Array(
+		"Противодействие коррупции", 
+		"/about/protivodeystvie-korruptsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Социальная ответственность", 
+		"/about/sotsialnaya-otvetstvennost/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,74 @@
+.directions-block {
+	overflow:hidden;
+	padding-bottom: 15px;
+	position:relative;
+}
+.directions-block .direction {
+    background-color: #eaeaea;
+    float: left;
+    height: 217px;
+    margin-left: 30px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 217px;
+}
+.directions-block .direction a {
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    padding-top: 30px;
+    width: 100%;
+}
+.directions-block .direction:first-child{
+    margin-left:0;
+}
+.directions-block .direction:hover{
+    background: #57b1e5;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4) inset;
+}
+.directions-block .direction .directions-picture{
+    background-image: url("img/directions.sprite.png");
+    background-repeat: no-repeat;
+    height: 95px;
+    margin: 0 auto;
+    transition: all 0.2s linear 0s;
+    width: 133px;
+}
+.direction.direction-1 .directions-picture{background-position:30px 0;}
+.direction.direction-2 .directions-picture{background-position:-225px 0;}
+.direction.direction-3 .directions-picture{background-position:-470px 0;}
+.direction.direction-4 .directions-picture{background-position:-710px 0;}
+
+.direction.direction-1:hover .directions-picture{background-position: 30px -90px;}
+.direction.direction-2:hover .directions-picture{background-position:-225px -90px;}
+.direction.direction-3:hover .directions-picture{background-position:-470px -90px;}
+.direction.direction-4:hover .directions-picture{background-position:-710px -90px;}
+
+.direction .directions-name {
+    font: 24px/48px 'PT Sans Narrow';
+    padding: 15px 11px 0;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+.direction .directions-name span {
+    display: inline-block;
+    line-height: 24px;
+}
+.direction a{
+    color:#000;
+    text-decoration:none;
+}
+.direction:hover a{color:#fff;}
+.direction_text {
+    background-color: #eaeaea;
+    clear: both;
+    display: none;
+    margin-top: 25px;
+    overflow: hidden;
+    padding: 15px;
+}
+.direction_text a.more {
+    color: #35b1f0;
+    float: right;
+    margin-top: 40px;
+}
