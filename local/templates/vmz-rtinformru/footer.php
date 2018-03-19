@@ -102,15 +102,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
 
 <script>
-	function CopyToClipboard(containerid) {
-		if (window.getSelection) {
-		    var range = document.createRange();
-		     range.selectNode(document.getElementById(containerid));
-		     window.getSelection().addRange(range);
-		     document.execCommand("Copy");
-		     alert("Ссылка скопирована в буфер!") 
-		}
-	}
 	$(document).ready(function(){
 		// main page: slick slider news
 		$('.slider-news').slick({
